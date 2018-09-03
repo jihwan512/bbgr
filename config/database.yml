@@ -4,15 +4,15 @@ development:
   pool: 5
   port: 5432
   host: ec2-54-225-92-1.compute-1.amazonaws.com
-  database: ***
-  username: ***
-  password: ***
+  database: ddqivuk86h8c1r
+  username: vbinvczajacgvq
+  password: 8dcd5b5792fbb5767c91bb2fc0c1376d4f685339bed93d171040d0d534ba0ea2
 production:
   adapter: postgresql
   encoding: unicode
   pool: 5
   port: 5432
   host: ec2-54-225-92-1.compute-1.amazonaws.com
-  database: ***
-  username: ***
-  password: ***
+  database: ddqivuk86h8c1r
+  username: vbinvczajacgvq
+  password: 8dcd5b5792fbb5767c91bb2fc0c1376d4f685339bed93d171040d0d534ba0ea2
