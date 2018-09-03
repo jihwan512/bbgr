@@ -1,0 +1,18 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  port: 5432
+  host: ec2-54-225-92-1.compute-1.amazonaws.com
+  database: ***
+  username: ***
+  password: ***
+production:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  port: 5432
+  host: ec2-54-225-92-1.compute-1.amazonaws.com
+  database: ***
+  username: ***
+  password: ***
