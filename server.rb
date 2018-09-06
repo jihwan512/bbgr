@@ -1,9 +1,9 @@
 require 'sinatra'
 require "sinatra/activerecord"
-# class Post < ActiveRecord::Base
-# end
-class Article < ActiveRecord::Base
-end
+require "./class_db.rb"
+
+
+
 get '/' do
 	# p = Posts.new
 	# p.name = "hi"
