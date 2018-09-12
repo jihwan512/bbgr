@@ -76,7 +76,7 @@ post '/message' do
               }
             }
             msg.to_json
-        elsif response="멋사 AT KOREATECH"
+        elsif response == "멋사 AT KOREATECH"
             msg = {
               message: {
                 text: "안녕하세요. 저는 멋쟁이 사자처럼 AT KOREATECH 소속입니다. 복거톤이나 다른 연합활동에 뜻이 있는 분들은 블로그에 댓글주세요~~~~~ ",
